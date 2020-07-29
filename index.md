@@ -1,6 +1,7 @@
 ---
 title: Testing
 layout: default
+filename: index.md
 ---
 
 # Home Page
