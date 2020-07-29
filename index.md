@@ -1,5 +1,5 @@
 ---
-title: Testing
+title: Index
 layout: default
 filename: index.md
 ---
