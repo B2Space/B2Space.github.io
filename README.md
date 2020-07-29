@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+# B2Space Systems
 
-You can use the [editor on GitHub](https://github.com/B2Space/B2Space.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Site Purpose
+This site is created and maintained by an aspiring rocket engineering college student to further understanding of myself in the field of rocketry, space systems and orbital mechanics as well as share the knowledge that I have picked up with you guys!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/B2Space/B2Space.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Focus
+I will primarily be focussing on rocket simulations, advancements in rocket theory and data collection of previous launches. Although NASA and ESA have good data coverage and exposure, I will be diving more into [JAXA](https://global.jaxa.jp/) and their technologies.
