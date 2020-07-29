@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Home Page
+# <p align="center">Home Page</p>
 
 ### Site Purpose
 This site is created and maintained by an aspiring rocket engineering college student to further understanding of myself in the field of rocketry, space systems and orbital mechanics as well as share the knowledge that I have picked up with you guys!
