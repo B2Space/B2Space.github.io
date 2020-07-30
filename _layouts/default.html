@@ -1,8 +1,10 @@
-{{ content }}
-
-
-<nav>
-{% for page in site.pages %}
-    <a href={{ page.filename }}>{{ page.title }}</a>
-{% endfor %}
-</nav>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {{ content }}
+  </body>
+</html>
