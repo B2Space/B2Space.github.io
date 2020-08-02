@@ -125,7 +125,9 @@ void draw()                          // This section is constantly looping
 }
 
 ```
+The project can be shown in the short GIF below.
 
+![ArmAnimation](https://user-images.githubusercontent.com/68944131/89114568-4636e200-d4c1-11ea-8704-d1d7b595bb37.gif)
 
 
 
