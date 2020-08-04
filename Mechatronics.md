@@ -4,6 +4,9 @@
 ## Personal and University Projects
 As a mechatronics engineering student, I aim to document my projects and learnings on this page along with my hobby of space engineering. Some of the projects on here are spin-off versions or harder versions of what I am given at University as coding projects (mainly in C or Python) but because I like visualising things, I try to create it in Processing which allows for drawing and actually visualising the motion of many systems that tend to be dynamic. Most of these projects are **simple** but just because I have next to no experience in Java and OOP, I try to learn as much as I can through these simple projects.
 
+---
+
+---
 
 ### Robot Kinematics
 This project involves designing a 2DOF robotic arm which can move in 2D space. It can be operated either using Forward Kinematics - where desired angles are input and the positions are calculated. Or by Inverse Kinematics - where the desired positions are input and the joint angles are calculated. 
@@ -61,6 +64,7 @@ The project can be shown in the short GIF below.
 So this small code project shows how a 2DOF robot can be controlled easily by manipulating its position and angles with a fixed horizontal axis. Future developments and adjustments to this project could include making a simple hand waving animation using Inverse Kinematics, adding more degrees of freedom, and possibly making a 3D version including the Z-axis utilising PVectors and Classes instead.
 
 
+---
 
 ---
 
