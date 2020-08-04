@@ -1,8 +1,8 @@
 # Mechatronics Projects
 
 
-## University Projects
-As a mechatronics engineering student, I aim to document my projects and learnings on this page along with my hobby of space engineering.
+## Personal and University Projects
+As a mechatronics engineering student, I aim to document my projects and learnings on this page along with my hobby of space engineering. Some of the projects on here are spin-off versions or harder versions of what I am given at University as coding projects (mainly in C or Python) but because I like visualising things, I try to create it in Processing which allows for drawing and actually visualising the motion of many systems that tend to be dynamic. Most of these projects are **simple** but just because I have next to no experience in Java and OOP, I try to learn as much as I can through these simple projects.
 
 
 ### Robot Kinematics
@@ -62,5 +62,18 @@ So this small code project shows how a 2DOF robot can be controlled easily by ma
 
 
 
-
 ---
+
+### Collisions
+This project involves experimenting with various objects to see how they interact with other objects when taking gravity, vectors, and mass into account during collision. 
+
+The first simple project is a **Vertically Bouncing Ball** which aims to use a ball under the influence of gravity and restitution to eventually come to rest upon consecutive contacts with the ground. Instead of actually programming *collision* because I am still unsure how to go about defining a specific set of points which constitute an object, so I made it bounce back up when it reached the position at which the ground was defined at instead.
+
+It's code can be located here: [Vertical Ball Bounce](./Code/Processing/VerticalBallBounce.pde)
+
+The simulation can be shown in the short GIF below:
+
+![BallBounce](https://user-images.githubusercontent.com/68944131/89274676-97db9a00-d684-11ea-8c87-ac93709dfa3a.gif)
+
+
+
