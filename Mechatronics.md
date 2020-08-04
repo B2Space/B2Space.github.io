@@ -81,7 +81,7 @@ The simulation can be shown in the short GIF below:
 
 ---
 
-The next step up from the simple ball bouncing was the collision of two objects with differing masses. I had to use the conservation of momentum equations to ensure that this simulation stayed as close to 1D physics as possible as they are only experiencing co-linear collision. I also experimented with energy loss during the collision so it wasn't perfectly elastic, resulting in the balls losing velocity everytime they hit the wall or each other. 
+The next step up from the simple ball bouncing was the collision of two objects with differing masses. I had to use the conservation of momentum equations to ensure that this simulation stayed as close to 1D physics as possible as they are only experiencing co-linear collision. I also experimented with energy loss during the collision so it wasn't perfectly elastic, resulting in the balls losing velocity everytime they hit the wall or each other. The proof and formula for elastic collisions was studied and applied from [this](https://courses.lumenlearning.com/boundless-physics/chapter/collisions/) website.
 
 The code for this project can be located here: [Linear Collision](./Code/Processing/LinearCollision.pde)
 
