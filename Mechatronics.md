@@ -79,5 +79,16 @@ The simulation can be shown in the short GIF below:
 
 ![BallBounce](https://user-images.githubusercontent.com/68944131/89274676-97db9a00-d684-11ea-8c87-ac93709dfa3a.gif)
 
+---
+
+The next step up from the simple ball bouncing was the collision of two objects with differing masses. I had to use the conservation of momentum equations to ensure that this simulation stayed as close to 1D physics as possible as they are only experiencing co-linear collision. I also experimented with energy loss during the collision so it wasn't perfectly elastic, resulting in the balls losing velocity everytime they hit the wall or each other. 
+
+The code for this project can be located here: [Linear Collision](./Code/Processing/LinearCollision.pde)
+
+The simulation is shown in the short GIF below:
+
+![LinearCollision](https://user-images.githubusercontent.com/68944131/89293360-2827d800-d6a1-11ea-93ad-c408c01239ef.gif)
+
+---
 
 
