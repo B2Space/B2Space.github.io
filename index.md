@@ -16,5 +16,5 @@ I have created very rudimentary simulations that use basic kinematics, kinetics 
 ### Simulations
 The current simulations I have done so far can be found [here](./Simulations.html) and will be updated everytime I create, revise one.
 
-### University Projects
-As I am actually Mechatronics student in college, I aim to use this site as a way to document the projects I have done over the years. It is of no relaiton to the rocketry component of this page but if you are interested, they can be found [here](./Mechatronics.html).
+### Personal and University Projects
+As I am actually Mechatronics student in college, I aim to use this site as a way to document the projects I have done over the past year in and out of university. It is of no relation to the rocketry component of this page but if you are interested, they can be found [here](./Mechatronics.html).
