@@ -91,4 +91,28 @@ The simulation is shown in the short GIF below:
 
 ---
 
+The next step up from 1D collinear collision was 2D freespace collision. Instead of using complex trigonometry and momentum mechanics (I tried and it didnt work :( ), I just added the Y axis also being manipulated by the collision where in the Linear Collision project, only the X axis velocities were being impacted. This also meant that I had to add boundaries to the top and bottom of the screen for the balls to bounce off and lose velocity as restitution is only 95%. I also had to tweak the way that distance between the two ball's center was calculated, as now it has a Y componenet as well, Pythagoras Theorem does the trick in finding the minimum distance between the Ball Centers to detect a collision. I won't upload this new one as it is 90% the same as the previous Linear Collision version, instead I will list the major code changes and additions below.
+
+Pythagoras for minimal distance calculation:
+``` java
+  DistanceX = Block2Pos.x - Block1Pos.x;
+  DistanceY = Block2Pos.y - Block1Pos.y;
+  
+  distance = sqrt(DistanceX * DistanceX  + DistanceY* DistanceY);
+```  
+Y-Velocity being affected by collisions if there is a Y Component present as well.
+```java
+    Block1Vel.y = ((Block1Mass-Block2Mass)/(Block1Mass+Block2Mass)) * PreCollisionBlock1VelY + (2*Block2Mass/(Block1Mass+Block2Mass)) * PreCollisionBlock2VelY;
+   Block2Vel.y = ((Block2Mass-Block1Mass)/(Block1Mass+Block2Mass)) * PreCollisionBlock2VelY+ (2*Block1Mass/(Block1Mass+Block2Mass)) * PreCollisionBlock1VelY;
+```
+ The simulation can be shown in the short GIF below:
+ 
+ ![2DCollision](https://user-images.githubusercontent.com/68944131/89365855-e175c480-d718-11ea-888b-3d93c49524c6.gif)
+
+ 
+ ---
+ 
+ ---
+
+
 
