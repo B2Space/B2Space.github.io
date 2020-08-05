@@ -1,4 +1,3 @@
-# Mechatronics Projects
 
 
 ## Personal and University Projects
