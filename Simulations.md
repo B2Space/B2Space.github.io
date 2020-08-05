@@ -25,6 +25,7 @@ The aim of this project was mainly for me to get used to Object Oriented Program
 The code to this project is located [here](./Code/Processing/SimpleOrbit.pde).
 
 A short GIF below shows how it looks:
+
 ![orbit](https://user-images.githubusercontent.com/68944131/89402012-8c0dd780-d759-11ea-8d5e-232bd8a3f53b.gif)
 
 
