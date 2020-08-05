@@ -10,8 +10,22 @@ This page contains the simulations I have created and will be updated with new a
 
 ### Simple Projectile Motion
 
-The aim of this simulation was to get an undertsanding of the forces and behaviour of a body with initial velocity and in freefall. In general, this type of motion falls under [Projectile Motion.](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Physics_(Boundless)/3%3A_Two-Dimensional_Kinematics/3.3%3A_Projectile_Motion) However it does not incorporate real world dynamics of wind resistance / drag, weightforce and thrust if it was a powered body. 
+The aim of this simulation was to get an undertsanding of the forces and behaviour of a body with initial velocity and in freefall. In general, this type of motion falls under [Projectile Motion.](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Physics_(Boundless)/3%3A_Two-Dimensional_Kinematics/3.3%3A_Projectile_Motion) However it does not incorporate real world dynamics of wind resistance/drag, weightforce and thrust if it was a powered body. 
 
+
+
+From projectile motion, the next step up is powered flight vertically with constant force upwards. This means Newton's Equations need to be used to derive an Equation of Motion based off the forces on the body.
+
+
+
+### Orbits
+
+The aim of this project was mainly for me to get used to Object Oriented Programming. In fact this is the first project where I use OOP, simply to model the solar system with the planet's size and orbital radius being totally inaccurate. Actually, the only kind of accurate thing about this simulation is the order of planets and their rotation speeds which are factor 10 less than what is stated on [NASA's Planetary Fact Sheet](https://nssdc.gsfc.nasa.gov/planetary/factsheet/).
+
+The code to this project is located [here](./Code/Processing/SimpleOrbit.pde).
+
+A short GIF below shows how it looks:
+![orbit](https://user-images.githubusercontent.com/68944131/89402012-8c0dd780-d759-11ea-8d5e-232bd8a3f53b.gif)
 
 
 
