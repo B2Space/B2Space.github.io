@@ -16,7 +16,6 @@ For a 2DOF robot, it is easy to derive the equations of motion using trigonometr
 
 ![image](https://user-images.githubusercontent.com/68944131/89091516-b6743380-d3ed-11ea-9e29-3b3b56754648.png)
 
-
 ---
 
 From the above image the following equations can be derived for **Forward Kinematics** : 
