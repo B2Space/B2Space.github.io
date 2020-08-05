@@ -102,7 +102,7 @@ Pythagoras for minimal distance calculation:
 ```  
 Y-Velocity being affected by collisions if there is a Y Component present as well.
 ```java
-    Block1Vel.y = ((Block1Mass-Block2Mass)/(Block1Mass+Block2Mass)) * PreCollisionBlock1VelY + (2*Block2Mass/(Block1Mass+Block2Mass)) * PreCollisionBlock2VelY;
+   Block1Vel.y = ((Block1Mass-Block2Mass)/(Block1Mass+Block2Mass)) * PreCollisionBlock1VelY + (2*Block2Mass/(Block1Mass+Block2Mass)) * PreCollisionBlock2VelY;
    Block2Vel.y = ((Block2Mass-Block1Mass)/(Block1Mass+Block2Mass)) * PreCollisionBlock2VelY+ (2*Block1Mass/(Block1Mass+Block2Mass)) * PreCollisionBlock1VelY;
 ```
  The simulation can be shown in the short GIF below:
