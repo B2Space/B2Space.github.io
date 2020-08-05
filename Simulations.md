@@ -7,7 +7,29 @@ filename: Simulations.md
 # Rocket Simulations
 This page contains the simulations I have created and will be updated with new and revised versions. As I am still learning about rocketry and coding, some of these may seem rudimentary, but it is all for the purpose of documenting my learning.
 
-### Simulation 1: Saturn V (26/06/2020)
+
+### Simple Projectile Motion
+
+The aim of this simulation was to get an undertsanding of the forces and behaviour of a body with initial velocity and in freefall. In general, this type of motion falls under [Projectile Motion.](https://phys.libretexts.org/Bookshelves/University_Physics/Book%3A_Physics_(Boundless)/3%3A_Two-Dimensional_Kinematics/3.3%3A_Projectile_Motion) However it does not incorporate real world dynamics of wind resistance / drag, weightforce and thrust if it was a powered body. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Saturn V Simulation
 
 #### Description
 Saturn V was the flagship of NASA used to launch Apollo towards the Moon in its 1969 journey. It was one of the heaviest and largest rockets every built. It was a three stage rocket which utilized a Rocketdyne F-1 rocket motor.
