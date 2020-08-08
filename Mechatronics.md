@@ -14,8 +14,8 @@ This project involves designing a 2DOF robotic arm which can move in 2D space. I
   <summary>Expand to see the kinematics projects:</summary>
   <br>
   
-  #### Forward Kinematics
-  
+
+
   For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
 
   ---
@@ -47,7 +47,8 @@ So this small code project shows how a 2DOF robot can be controlled easily by ma
 
 
 ---
-  #### Inverse Kinematics
+ 
+ 
 And for **Inverse Kinematics** the solutions are a bit more complicated but can also be found using trigonometry:
 
 `theta2 = arccos((x2^2 + y2^2 - L1^2 - L2^2) / (2 * L1 * L2))`
