@@ -12,7 +12,7 @@ This project involves designing a 2DOF robotic arm which can move in 2D space. I
 
 <details>
   <summary>Expand to see the kinematics projects:</summary>
-  
+  <br>
   
   For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
 
@@ -75,7 +75,8 @@ So this small code project shows how a 2DOF robot can be controlled easily by ma
 This project involves experimenting with various objects to see how they interact with other objects when taking gravity, vectors, and mass into account during collision. The examples here are done without OOP because I am still new at programming, but the later, more complicated ones definitely should be done using OOP.
 
 <details>
-  <summary>Expand to see the collision projects</summary>
+  <summary>Expand to see the collision projects:</summary>
+  <br>
   
 
 The first simple project is a **Vertically Bouncing Ball** which aims to use a ball under the influence of gravity and restitution to eventually come to rest upon consecutive contacts with the ground. Instead of actually programming *collision* because I am still unsure how to go about defining a specific set of points which constitute an object, so I made it bounce back up when it reached the position at which the ground was defined at instead.
