@@ -10,7 +10,7 @@ As a mechatronics engineering student, I aim to document my projects and learnin
 ### Robot Kinematics
 This project involves designing a 2DOF robotic arm which can move in 2D space. It can be operated either using Forward Kinematics - where desired angles are input and the positions are calculated. Or by Inverse Kinematics - where the desired positions are input and the joint angles are calculated. 
 
-<details>
+<details markdown="1">
   <summary>Expand to see the kinematics projects:</summary>
   <br>
   
