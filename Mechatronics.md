@@ -14,6 +14,7 @@ This project involves designing a 2DOF robotic arm which can move in 2D space. I
   <summary>Expand to see the kinematics projects:</summary>
   <br>
   
+  #### Forward Kinematics
   For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
 
   ---
@@ -45,7 +46,7 @@ So this small code project shows how a 2DOF robot can be controlled easily by ma
 
 
 ---
-
+  #### Inverse Kinematics
 And for **Inverse Kinematics** the solutions are a bit more complicated but can also be found using trigonometry:
 
 `theta2 = arccos((x2^2 + y2^2 - L1^2 - L2^2) / (2 * L1 * L2))`
@@ -125,4 +126,29 @@ Y-Velocity being affected by collisions if there is a Y Component present as wel
  ---
 
 
+### Visualizer
+This project involves taking audio input from either the computer's microphone or a local mp3 soundfile and creating a music visualiser. This is more of a personal project because I'm interested in audio processing and animation.
+
+<details>
+  <summary>Expand to see the visualizer projects</summary>
+  <br>
+  
+  When analysing a 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</details>
 
