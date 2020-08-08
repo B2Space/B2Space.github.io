@@ -10,6 +10,10 @@ As a mechatronics engineering student, I aim to document my projects and learnin
 ### Robot Kinematics
 This project involves designing a 2DOF robotic arm which can move in 2D space. It can be operated either using Forward Kinematics - where desired angles are input and the positions are calculated. Or by Inverse Kinematics - where the desired positions are input and the joint angles are calculated. 
 
+<details>
+  <summary>Expand to see the kinematics projects:</summary>
+  
+
 For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
 
 ---
@@ -60,7 +64,7 @@ The project can be shown in the short GIF below.
 
 
 So this small code project shows how a 2DOF robot can be controlled easily by manipulating its position and angles with a fixed horizontal axis. Future developments and adjustments to this project could include making a simple hand waving animation using Inverse Kinematics, adding more degrees of freedom, and possibly making a 3D version including the Z-axis utilising PVectors and Classes instead.
-
+</details>
 
 ---
 
