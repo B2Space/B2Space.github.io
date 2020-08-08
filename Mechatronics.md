@@ -79,14 +79,15 @@ This project involves experimenting with various objects to see how they interac
   <summary>Expand to see the collision projects:</summary>
   <br>
   
+  ####
+  
+  The first simple project is a **Vertically Bouncing Ball** which aims to use a ball under the influence of gravity and restitution to eventually come to rest upon consecutive contacts with the ground. Instead of actually programming *collision* because I am still unsure how to go about defining a specific set of points which constitute an object, so I made it bounce back up when it reached the position at which the ground was defined at instead.
 
-The first simple project is a **Vertically Bouncing Ball** which aims to use a ball under the influence of gravity and restitution to eventually come to rest upon consecutive contacts with the ground. Instead of actually programming *collision* because I am still unsure how to go about defining a specific set of points which constitute an object, so I made it bounce back up when it reached the position at which the ground was defined at instead.
+  It's code can be located here: [Vertical Ball Bounce](./Code/Processing/VerticalBallBounce.pde)
 
-It's code can be located here: [Vertical Ball Bounce](./Code/Processing/VerticalBallBounce.pde)
+  The simulation can be shown in the short GIF below:
 
-The simulation can be shown in the short GIF below:
-
-![BallBounce](https://user-images.githubusercontent.com/68944131/89274676-97db9a00-d684-11ea-8c87-ac93709dfa3a.gif)
+  ![BallBounce](https://user-images.githubusercontent.com/68944131/89274676-97db9a00-d684-11ea-8c87-ac93709dfa3a.gif)
 
 ---
 
