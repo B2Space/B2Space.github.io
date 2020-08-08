@@ -13,6 +13,7 @@ This project involves designing a 2DOF robotic arm which can move in 2D space. I
 <details>
   <summary>Expand to see the kinematics projects:</summary>
   
+  
 
 For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
 
