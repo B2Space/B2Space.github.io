@@ -14,10 +14,9 @@ This project involves designing a 2DOF robotic arm which can move in 2D space. I
   <summary>Expand to see the kinematics projects:</summary>
   
   
+  For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
 
-For a 2DOF robot, it is easy to derive the equations of motion using trigonometry to create a relationship between joint lengths and joint angles.
-
----
+  ---
 
 ![image](https://user-images.githubusercontent.com/68944131/89091516-b6743380-d3ed-11ea-9e29-3b3b56754648.png)
 
@@ -67,12 +66,17 @@ The project can be shown in the short GIF below.
 So this small code project shows how a 2DOF robot can be controlled easily by manipulating its position and angles with a fixed horizontal axis. Future developments and adjustments to this project could include making a simple hand waving animation using Inverse Kinematics, adding more degrees of freedom, and possibly making a 3D version including the Z-axis utilising PVectors and Classes instead.
 </details>
 
+
 ---
 
 ---
 
 ### Collisions
-This project involves experimenting with various objects to see how they interact with other objects when taking gravity, vectors, and mass into account during collision. 
+This project involves experimenting with various objects to see how they interact with other objects when taking gravity, vectors, and mass into account during collision. The examples here are done without OOP because I am still new at programming, but the later, more complicated ones definitely should be done using OOP.
+
+<details>
+  <summary>Expand to see the collision projects</summary>
+  
 
 The first simple project is a **Vertically Bouncing Ball** which aims to use a ball under the influence of gravity and restitution to eventually come to rest upon consecutive contacts with the ground. Instead of actually programming *collision* because I am still unsure how to go about defining a specific set of points which constitute an object, so I made it bounce back up when it reached the position at which the ground was defined at instead.
 
@@ -111,6 +115,8 @@ Y-Velocity being affected by collisions if there is a Y Component present as wel
  The simulation can be shown in the short GIF below:
  
  ![2DCollision](https://user-images.githubusercontent.com/68944131/89365855-e175c480-d718-11ea-888b-3d93c49524c6.gif)
+
+</details>
 
  
  ---
