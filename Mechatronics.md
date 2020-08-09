@@ -146,10 +146,23 @@ This project involves taking audio input from either the computer's microphone o
   Its code can be located here: [Amplitude Waveform Visualiser](./Code/Processing/AmplitudeCircleWave.pde).
  
   
-  You can see how it looks in the short GIF below. Unfortunately GIFs don't support sound but it is playing Sunflower by Post Malone and Swae Lee.
+  You can see how it looks in the short GIF below. Unfortunately GIFs don't support sound but it is playing [Sunflower by Post Malone and Swae Lee.](https://www.youtube.com/watch?v=ApXoWvfEYVU)
   
   ![AmplitudeWavePolar](https://user-images.githubusercontent.com/68944131/89728651-2fb8f980-da72-11ea-816b-b2286bc8d1eb.gif)
 
+  
+  The next project using this amplitde analysis took some time to understand and create because it was the first time that I worked with so many polygons, simultaneous events and 3D plotting. A very good reference that I used to create this project was from [The Coding Train](https://www.youtube.com/watch?v=IKB1hWWedMk). Following his general structure was easy to understand how to proceed with this project and shape it in a way that I thought would be cool. The inspiration for my project was [this video](https://www.youtube.com/watch?v=JYEJK9h5wdg). Plus I really like the theme of Synthwave and '80s retro music so this was more a personal project than anything.
+  
+  Overall this project experimented with 3D terrain generation, Perlin noise, polygon shaping, amplitude analysis of soundfiles and traversing through 3D planes.
+  
+  The code to this project is located here: [3D Amplitude Terrain](./Code/Processing/Amplitude3DSynthwave.pde).
+  
+  
+  You can see how it looks in the short GIF below. This program was run using the song [Cosmic Sand - 9h00](https://www.youtube.com/watch?v=JYEJK9h5wdg) but sound cannot be played during the GIF unfortunately:
+  
+  ![SynthWaveAmplitude](./GIF/synthwave.gif)
+  
+  
   
   
   
