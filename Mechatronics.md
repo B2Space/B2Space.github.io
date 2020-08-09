@@ -75,7 +75,7 @@ So this small code project shows how a 2DOF robot can be controlled easily by ma
 ### Collisions
 This project involves experimenting with various objects to see how they interact with other objects when taking gravity, vectors, and mass into account during collision. The examples here are done without OOP because I am still new at programming, but the later, more complicated ones definitely should be done using OOP.
 
-<details>
+<details markdown="1">
   <summary>Expand to see the collision projects:</summary>
   <br>
 
