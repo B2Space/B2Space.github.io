@@ -129,12 +129,14 @@ Y-Velocity being affected by collisions if there is a Y Component present as wel
 ### Visualizer
 This project involves taking audio input from either the computer's microphone or a local mp3 soundfile and creating a music visualiser. This is more of a personal project because I'm interested in audio processing and animation.
 
-<details>
+<details markdown="1">
   <summary>Expand to see the visualizer projects</summary>
   <br>
   
-  When analysing a 
+  When analysing a sound file or audio input, it can be analysed relatively simply with amplitude analysis which quantifies the `volume` at a specific time determined by the sampling rate. In processing, there are inbuilt functions that do this and return a float value ranging from `0 - 1` where 0 is low volume and 1 is high volume. This value is not influenced by the output speaker volume controls and is purely derivative data from the input sound file.
   
+  
+  The first project is a simple audio visualiser made from analysing the amplitude of a song stored locally on my computer. It can be done through audio input via the headphone jack or microphone but since that would include noise from my keyboard and environment, I rather analyze a local file for the purposes of understanding how this process works in the first place.
   
   
   
