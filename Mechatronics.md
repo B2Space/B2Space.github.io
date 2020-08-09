@@ -100,7 +100,7 @@ The simulation is shown in the short GIF below:
 
 ---
 
-The next step up from 1D collinear collision was 2D freespace collision. Instead of using complex trigonometry and momentum mechanics (I tried and it didnt work :( ), I just added the Y axis also being manipulated by the collision where in the Linear Collision project, only the X axis velocities were being impacted. This also meant that I had to add boundaries to the top and bottom of the screen for the balls to bounce off and lose velocity as restitution is only 95%. I also had to tweak the way that distance between the two ball's center was calculated, as now it has a Y componenet as well, Pythagoras Theorem does the trick in finding the minimum distance between the Ball Centers to detect a collision. I won't upload this new one as it is 90% the same as the previous Linear Collision version, instead I will list the major code changes and additions below.
+The next step up from 1D collinear collision was 2D freespace collision. Instead of using complex trigonometry and momentum mechanics (I tried and it didnt work :( ), I just added the Y axis also being manipulated by the collision where in the Linear Collision project, only the X axis velocities were being impacted. This also meant that I had to add boundaries to the top and bottom of the screen for the balls to bounce off and lose velocity as restitution is only 95%. I also had to tweak the way that distance between the two ball's center was calculated, as now it has a Y component as well, Pythagoras Theorem does the trick in finding the minimum distance between the Ball Centers to detect a collision. I won't upload this new one as it is 90% the same as the previous Linear Collision version, instead I will list the major code changes and additions below.
 
 Pythagoras for minimal distance calculation:
 ``` java
@@ -146,6 +146,10 @@ This project involves taking audio input from either the computer's microphone o
   Its code can be located here: [Amplitude Waveform Visualiser](./Code/Processing/AmplitudeCircleWave.pde).
  
   
+  You can see how it looks in the short GIF below. Unfortunately GIFs don't support sound but it is playing Sunflower by Post Malone and Swae Lee.
+  
+  ![AmplitudeWavePolar](https://user-images.githubusercontent.com/68944131/89728651-2fb8f980-da72-11ea-816b-b2286bc8d1eb.gif)
+
   
   
   
