@@ -11,6 +11,11 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
   <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
 
+  <style>
+    p.pad1 {
+  padding: 35px 70px;
+ }
+  </style>
 {% seo %}
 
 </head>
@@ -24,9 +29,12 @@
     <div id="container">
       <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
       <div id="main" role="main">
+        
         <article class="markdown-body">
           
+          <p class="pad1">
           {{ content }}
+          </p>
           
         </article>
       </div>
