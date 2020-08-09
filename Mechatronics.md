@@ -139,10 +139,10 @@ This project involves taking audio input from either the computer's microphone o
   The first project is a simple audio visualiser made from analysing the amplitude of a song stored locally on my computer. It can be done through audio input via the headphone jack or microphone but since that would include noise from my keyboard and environment, I rather analyze a local file for the purposes of understanding how this process works in the first place.
   
   
+  This simple visualiser uses the amplitude data collected per sample which happens to be the rate at which the `draw` loop is called per second. This amplitude is then used to control the radii of 2 circles as well as an amplitude waveform that has been wrapped around the circles using polar coordinates.
   
-  
-  
-  
+  Its code can be located here: [Amplitude Waveform Visualiser](./Code/Processing/AmplitudeCircleWave.pde).
+ 
   
   
   
